@@ -1,0 +1,104 @@
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  box-shadow: 2px 2px 3px #999;
+  .my-float {
+    margin-top: 50%;
+  }
+}
+
+// Pagination Centered
+.pagination-wrapper {
+  overflow-x: auto;
+}
+
+.pagination {
+  justify-content: center;
+  margin: 30px;
+}
+
+.align-self-center {
+  align-self: center;
+}
+.tab_button {
+  width: 255px;
+  text-align: center;
+}
+
+.landing_margin {
+  margin-top: 230px;
+}
+.logo_margin {
+  margin-left: 10px;
+}
+
+.justify_center {
+  justify-content: center;
+}
+.nav-tabs {
+  border-bottom: 0px solid;
+}
+
+.loginRegister {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-bottom: -30px;
+  list-style: none;
+  justify-content: space-between;
+}
+.hospital-switch > label {
+  font-size: 13px;
+  padding: 4px 2px;
+}
+
+
+.logo {
+  // display: block;
+  // margin-left: auto;
+  // margin-right: auto;
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-25%, 12%);
+  padding: 30px;
+}
+.new {
+  background-color: rgb(185, 230, 208);
+  color: #213747;
+}
+.logins {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-80%, 60%);
+  padding: 30px;
+}
+.bg-accent{
+  background: #0b4f6c!important;
+}
+
+@media screen and (max-width: 1200px){
+    .pieMaleFem {
+        font-size: 21px !important;
+    }
+} 
+
+@media screen and (max-width: 990px){
+    .pieforBrands {
+        font-size: 28px !important;
+    }
+} 
+
+@media screen and (max-width: 990px){
+    .pieMaleFem {
+        font-size: 22.6px !important;
+    }
+} 
+
+
